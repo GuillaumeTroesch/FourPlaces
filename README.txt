@@ -1,7 +1,7 @@
 Guillaume Troesch : o2174593
 
 Lien du dépôt git :
-
+https://github.com/Nemense/FourPlaces.git
 
 Ce travail a été réalisé en grande partie avec Arthur Pointel.
 Il reprend les bases de la correction de l'exercice TodoList, d'où les noms
