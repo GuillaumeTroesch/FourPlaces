@@ -1,0 +1,14 @@
+.vs/*
+
+TodoList/bin/*
+
+TodoList/obj/*
+
+TodoList.iOS/bin/*
+
+TodoList.iOS/obj/*
+
+TodoList.Android/bin/*
+
+TodoList.Android/obj/*
+

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<forms:BaseContentPage
+    xmlns:forms="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TodoList.Views.InscriptionPage"
+    Title="{Binding PageName, Mode=OneTime}">
+    <ScrollView
+        Orientation="Vertical">
+        <StackLayout
+            Orientation="Vertical"
+            Margin="12,20">
+
+            <Label
+                Text="Email" />
+            <Entry
+                Text="{Binding Email}" />
+
+            <Label
+                Text="Firstname" />
+            <Entry
+                Text="{Binding Firstname}" />
+
+            <Label
+                Text="Lastname" />
+            <Entry
+                Text="{Binding Lastname}" />
+
+            <Label
+                Text="Password" />
+            <Entry
+                IsPassword="true"
+                Text="{Binding Password}" />
+
+            <Label
+                Text="Confirm password" />
+            <Entry
+                IsPassword="true"
+                Text="{Binding ConfirmPassword}" />
+
+            <Button
+                Command="{Binding RegisterCommand}"
+                Text="Register" />
+
+        </StackLayout>
+    </ScrollView>
+
+</forms:BaseContentPage>
